@@ -1,0 +1,140 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning"
+            ],
+            "responses": [
+                "Hello! How can I help you?",
+                "Hi there!"
+            ]
+        },
+        {
+            "tag": "course_list",
+            "patterns": [
+                "What courses do you offer?",
+                "Which courses are available?",
+                "Courses available",
+                "List of courses"
+            ],
+            "responses": [
+                "We offer Python, Machine Learning, and Web Development."
+            ]
+        },
+        {
+            "tag": "python_course",
+            "patterns": [
+                "python",
+                "python course",
+                "tell me about python",
+                "python syllabus",
+                "python course details",
+                "what is python course about"
+            ],
+            "responses": [
+                "The Python course covers basics to advanced concepts and lasts 3 months."
+            ]
+        },
+        {
+            "tag": "ml_course",
+            "patterns": [
+                "Machine learning",
+                "ML course",
+                "Tell me about machine learning",
+                "I want to learn ML"
+            ],
+            "responses": [
+                "The Machine Learning course focuses on algorithms, NLP, and real projects."
+            ]
+        },
+        {
+            "tag": "web_course",
+            "patterns": [
+                "Web development",
+                "Web dev course",
+                "Frontend backend course",
+                "Website development"
+            ],
+            "responses": [
+                "Web Development includes HTML, CSS, JavaScript, and backend basics."
+            ]
+        },
+        {
+            "tag": "fees_general",
+            "patterns": [
+                "What is the fee?",
+                "How much does the course cost?",
+                "Fee details"
+            ],
+            "responses": [
+                "Fees depend on the course. Which course are you interested in?"
+            ]
+        },
+        {
+            "tag": "python_fee",
+            "patterns": [
+                "python fee",
+                "python course fee",
+                "fee for python",
+                "what is the fee for python course",
+                "python course cost",
+                "how much is python course"
+            ],
+            "responses": [
+                "The Python course fee is ₹10,000."
+            ]
+        },
+        {
+            "tag": "duration",
+            "patterns": [
+                "How long is the course?",
+                "Course duration",
+                "Duration"
+            ],
+            "responses": [
+                "Each course duration is 3 months."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you"
+            ],
+            "responses": [
+                "Goodbye! Have a great day 😊"
+            ]
+        },
+        {
+            "tag": "ml_fee",
+            "patterns": [
+                "ml fee",
+                "machine learning course fee",
+                "fee for ml course",
+                "how much is ml course",
+                "machine learning cost"
+            ],
+            "responses": [
+                "The Machine Learning course fee is ₹15,000."
+            ]
+        },
+        {
+            "tag": "ml_fee",
+            "patterns": [
+                "ml fee",
+                "machine learning course fee",
+                "fee for ml course",
+                "how much is ml course",
+                "machine learning cost"
+            ],
+            "responses": [
+                "The Machine Learning course fee is ₹15,000."
+            ]
+        }
+    ]
+}
